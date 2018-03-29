@@ -1,6 +1,10 @@
-html, body {
+* {
+	box-sizing: border-box;
+}
+
+body {
     color: #333;
-    font-size: 1.15em;
+    font-size: 1.25em;
     margin: 0;
 }
 
@@ -9,7 +13,7 @@ h1, h2, h3, h4, p, figure {
 }
 
 h1, h2, h3, h4, p, figure, img {
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 h1, h2, h3 {
@@ -26,7 +30,7 @@ h3 {
 }
 
 p {
-    padding: 0.5em 0 0.5em 0;
+    padding: 0 1em;
 }
 
 footer {
