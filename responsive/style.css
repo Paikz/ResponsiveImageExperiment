@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-size: 1.25em;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, figure {
+    max-width: 33em;
+}
+
+h1, h2, h3, h4, p, figure, img {
+    margin: 1em auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    width: 100%;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.25em 0 0.75em 0;
+}
+
+p {
+    padding: 0 1em;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: #666;
+}
+
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 0 1em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.fullscreen {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: none;
+}
